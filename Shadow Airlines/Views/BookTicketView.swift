@@ -18,7 +18,7 @@ struct BookTicketContent: View {
     //variables
     @StateObject var data = DataLoader()
     @State private var isModal = false
-    @State public var departure = Date()
+    @State var departure = Date()
     @State var destination = "San Francisco"
 
        //view block
@@ -28,7 +28,7 @@ struct BookTicketContent: View {
             self.isModal = true
         }.sheet(isPresented: $isModal, content: {
             //AirportsList
-            AirportsList(data: self.data, destination: $destination, isPresented: $isModal)
+            AirportList(data: self.data, destination: $destination, isPresented: $isModal)
         })
            //Origin
            //Destination
@@ -37,7 +37,7 @@ struct BookTicketContent: View {
            //logic to get data and pass to next view
            //Navigation Link to ticket
            Spacer()
-        NavigationLink(destination:TicketView(destination: self.$destination), label: {
+        NavigationLink(destination:TicketView(destination: self.$destination, departure: self.$departure), label: {
                Text("BOOK FLIGHT")
                    .font(.system(size:60))
                    .foregroundColor(Color.white)
@@ -49,7 +49,7 @@ struct BookTicketContent: View {
        }
    }
 
-struct AirportsList: View {
+struct AirportList: View {
     @ObservedObject var data : DataLoader
     @Binding var destination: String
     @Binding var isPresented: Bool
