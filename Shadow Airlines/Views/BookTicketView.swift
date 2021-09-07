@@ -8,19 +8,19 @@ import SwiftUI
 import UIKit
 
 struct BookTicketView: View {
-    @StateObject var data = DataLoader()
     var body: some View {
         VStack{
-        BookTicketContent()
+            BookTicketContent()
     }
 }
 
 struct BookTicketContent: View {
     //variables
-    
-    @State var isModal: Bool = false
+    @StateObject var data = DataLoader()
+    @State private var isModal = false
     @State public var departure = Date()
-    @State public var destination = "San Francisco"
+    @State var destination = "San Francisco"
+
        //view block
        var body: some View {
            //Modal Destination
@@ -28,7 +28,7 @@ struct BookTicketContent: View {
             self.isModal = true
         }.sheet(isPresented: $isModal, content: {
             //AirportsList
-            AirportList()
+            AirportsList(data: self.data, destination: $destination, isPresented: $isModal)
         })
            //Origin
            //Destination
@@ -37,7 +37,7 @@ struct BookTicketContent: View {
            //logic to get data and pass to next view
            //Navigation Link to ticket
            Spacer()
-           NavigationLink(destination:TicketView(), label: {
+        NavigationLink(destination:TicketView(destination: self.$destination), label: {
                Text("BOOK FLIGHT")
                    .font(.system(size:60))
                    .foregroundColor(Color.white)
@@ -48,27 +48,25 @@ struct BookTicketContent: View {
            }
        }
    }
-struct AirportList: View {
-    @StateObject var data = DataLoader()
-    var body: some View {
-        AirportsList(data: data)
-    }
-}
-
 
 struct AirportsList: View {
     @ObservedObject var data : DataLoader
-    
-    @State private var chosen_city: String?
+    @Binding var destination: String
+    @Binding var isPresented: Bool
          var body: some View {
-            List(selection: $chosen_city){
+            List{
                ForEach(data.airportData, id: \.id){ state in
                    Section(header: Text("\(state.state)")) {
                        ForEach(state.cities, id: \.id) { city in
-                        Text("\(city.city)")
-                   }
+                        Text("\(city.city)").onTapGesture {
+                            destination = city.city
+                            print("selected: \(destination)")
+                            self.isPresented.toggle()
+                       }
+                       }
                }
             }
         }
+    
     }
 }

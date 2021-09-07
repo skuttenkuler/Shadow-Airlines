@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct TicketView: View {
- 
+    @Binding var destination: String
     var body: some View {
         ZStack{
             VStack{
-            Text("FROM:").offset(x: -30,y: -95).font(.system(size:25).weight(.heavy))
-            Text("TO:").offset(x: -50,y: -80).font(.system(size:25).weight(.heavy))
+            Text("Nashville (BNA)").offset(x: -30,y: -95).font(.system(size:25).weight(.heavy))
+                Text(destination).offset(x: -50,y: -80).font(.system(size:25).weight(.heavy))
             Text("Departing: ").offset(x: 35,y: 138).font(.system(size:25).weight(.heavy))
             Text("Date:").offset(x: -95,y: 190).font(.system(size:25).weight(.heavy))
         Button("Book"){
@@ -27,10 +27,11 @@ struct TicketView: View {
             .frame(width:300, height: 650)
     )}
 }
-
-struct TicketView_Previews: PreviewProvider {
-    static var previews: some View {
-        TicketView()
-    }
 }
-}
+//struct TicketView_Previews: PreviewProvider {
+//    @Binding var destination: String
+//    static var previews: some View {
+//        TicketView(destination: $destination)
+//    }
+//}
+//}
