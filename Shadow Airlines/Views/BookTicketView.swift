@@ -9,32 +9,33 @@ import UIKit
 
 struct BookTicketView: View {
     @StateObject var data = DataLoader()
-
     var body: some View {
         VStack{
-        Text("BOOK TICKET")
         BookTicketContent()
     }
 }
 
 struct BookTicketContent: View {
     //variables
-       @State private var departure = Date()
-      
+    
+    @State var isModal: Bool = false
+    @State public var departure = Date()
+    @State public var destination = "San Francisco"
        //view block
        var body: some View {
-           //Form
-           AirportList()
-           Form{
-           
+           //Modal Destination
+        Button(destination){
+            self.isModal = true
+        }.sheet(isPresented: $isModal, content: {
+            //AirportsList
+            AirportList()
+        })
            //Origin
            //Destination
            //Departure Date
            DatePicker("Departure", selection: $departure, in: Date()...)
            //logic to get data and pass to next view
            //Navigation Link to ticket
-           
-           }
            Spacer()
            NavigationLink(destination:TicketView(), label: {
                Text("BOOK FLIGHT")
@@ -47,3 +48,27 @@ struct BookTicketContent: View {
            }
        }
    }
+struct AirportList: View {
+    @StateObject var data = DataLoader()
+    var body: some View {
+        AirportsList(data: data)
+    }
+}
+
+
+struct AirportsList: View {
+    @ObservedObject var data : DataLoader
+    
+    @State private var chosen_city: String?
+         var body: some View {
+            List(selection: $chosen_city){
+               ForEach(data.airportData, id: \.id){ state in
+                   Section(header: Text("\(state.state)")) {
+                       ForEach(state.cities, id: \.id) { city in
+                        Text("\(city.city)")
+                   }
+               }
+            }
+        }
+    }
+}

@@ -9,7 +9,7 @@ import Foundation
 
 struct TicketInfo {
     let departure: Date
-    let origin: String
-    let destination: String
+    let destination_city: String
+    let destination_code: String
 }
 
