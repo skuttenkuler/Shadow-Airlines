@@ -13,14 +13,14 @@
 		5F68C50226E6E622007E40E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F68C50126E6E622007E40E1 /* Preview Assets.xcassets */; };
 		5F68C50D26E6E622007E40E1 /* Shadow_AirlinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C50C26E6E622007E40E1 /* Shadow_AirlinesTests.swift */; };
 		5F68C51826E6E622007E40E1 /* Shadow_AirlinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C51726E6E622007E40E1 /* Shadow_AirlinesUITests.swift */; };
-		5F68C52826E6E9FC007E40E1 /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F68C52726E6E9FC007E40E1 /* flights.json */; };
 		5F68C52F26E6EB2D007E40E1 /* AirportList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C52E26E6EB2D007E40E1 /* AirportList.swift */; };
 		5F68C53326E6EB80007E40E1 /* TicketInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C53126E6EB80007E40E1 /* TicketInfo.swift */; };
 		5F68C53426E6EB80007E40E1 /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C53226E6EB80007E40E1 /* Airports.swift */; };
 		5F68C53826E6EB8F007E40E1 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C53626E6EB8F007E40E1 /* DataLoader.swift */; };
 		5F68C53926E6EB8F007E40E1 /* Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C53726E6EB8F007E40E1 /* Screenshot.swift */; };
-		5F68C53D26E6EC05007E40E1 /* BookTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C53B26E6EC05007E40E1 /* BookTicketView.swift */; };
 		5F68C53E26E6EC05007E40E1 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C53C26E6EC05007E40E1 /* TicketView.swift */; };
+		5FD2188F26E6EF2600E64C3D /* BookTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD2188E26E6EF2600E64C3D /* BookTicketView.swift */; };
+		5FD2189126E6F1D900E64C3D /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 5FD2189026E6F1D900E64C3D /* flights.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,14 +53,14 @@
 		5F68C51326E6E622007E40E1 /* Shadow AirlinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shadow AirlinesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F68C51726E6E622007E40E1 /* Shadow_AirlinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow_AirlinesUITests.swift; sourceTree = "<group>"; };
 		5F68C51926E6E622007E40E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F68C52726E6E9FC007E40E1 /* flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
 		5F68C52E26E6EB2D007E40E1 /* AirportList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportList.swift; sourceTree = "<group>"; };
 		5F68C53126E6EB80007E40E1 /* TicketInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketInfo.swift; sourceTree = "<group>"; };
 		5F68C53226E6EB80007E40E1 /* Airports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
 		5F68C53626E6EB8F007E40E1 /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		5F68C53726E6EB8F007E40E1 /* Screenshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screenshot.swift; sourceTree = "<group>"; };
-		5F68C53B26E6EC05007E40E1 /* BookTicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTicketView.swift; sourceTree = "<group>"; };
 		5F68C53C26E6EC05007E40E1 /* TicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		5FD2188E26E6EF2600E64C3D /* BookTicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTicketView.swift; sourceTree = "<group>"; };
+		5FD2189026E6F1D900E64C3D /* flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +91,6 @@
 		5F68C4EE26E6E61F007E40E1 = {
 			isa = PBXGroup;
 			children = (
-				5F68C53A26E6EB9C007E40E1 /* Views */,
-				5F68C53526E6EB85007E40E1 /* Methods */,
-				5F68C53026E6EB50007E40E1 /* Models */,
-				5F68C52D26E6EB0A007E40E1 /* Components */,
-				5F68C52726E6E9FC007E40E1 /* flights.json */,
 				5F68C4F926E6E620007E40E1 /* Shadow Airlines */,
 				5F68C50B26E6E622007E40E1 /* Shadow AirlinesTests */,
 				5F68C51626E6E622007E40E1 /* Shadow AirlinesUITests */,
@@ -116,6 +111,11 @@
 		5F68C4F926E6E620007E40E1 /* Shadow Airlines */ = {
 			isa = PBXGroup;
 			children = (
+				5FD2189026E6F1D900E64C3D /* flights.json */,
+				5F68C53A26E6EB9C007E40E1 /* Views */,
+				5F68C53526E6EB85007E40E1 /* Methods */,
+				5F68C53026E6EB50007E40E1 /* Models */,
+				5F68C52D26E6EB0A007E40E1 /* Components */,
 				5F68C4FA26E6E620007E40E1 /* Shadow_AirlinesApp.swift */,
 				5F68C4FC26E6E620007E40E1 /* ContentView.swift */,
 				5F68C4FE26E6E622007E40E1 /* Assets.xcassets */,
@@ -180,7 +180,7 @@
 		5F68C53A26E6EB9C007E40E1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5F68C53B26E6EC05007E40E1 /* BookTicketView.swift */,
+				5FD2188E26E6EF2600E64C3D /* BookTicketView.swift */,
 				5F68C53C26E6EC05007E40E1 /* TicketView.swift */,
 			);
 			path = Views;
@@ -289,8 +289,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F68C52826E6E9FC007E40E1 /* flights.json in Resources */,
 				5F68C50226E6E622007E40E1 /* Preview Assets.xcassets in Resources */,
+				5FD2189126E6F1D900E64C3D /* flights.json in Resources */,
 				5F68C4FF26E6E622007E40E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,10 +317,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F68C4FD26E6E620007E40E1 /* ContentView.swift in Sources */,
-				5F68C53D26E6EC05007E40E1 /* BookTicketView.swift in Sources */,
 				5F68C4FB26E6E620007E40E1 /* Shadow_AirlinesApp.swift in Sources */,
 				5F68C53826E6EB8F007E40E1 /* DataLoader.swift in Sources */,
 				5F68C53426E6EB80007E40E1 /* Airports.swift in Sources */,
+				5FD2188F26E6EF2600E64C3D /* BookTicketView.swift in Sources */,
 				5F68C53926E6EB8F007E40E1 /* Screenshot.swift in Sources */,
 				5F68C53E26E6EC05007E40E1 /* TicketView.swift in Sources */,
 				5F68C52F26E6EB2D007E40E1 /* AirportList.swift in Sources */,

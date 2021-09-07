@@ -4,22 +4,27 @@
         "state": "Alabama",
         "cities": [
             {
+            "id":101,
             "city":"Birmingham",
             "code" : "BHM"
             },
             {
+                "id":102,
             "city":"Dothan",
             "code" : "DHN"
             },
             {
+                "id":103,
             "city":"Huntsville",
             "code":"HSV"
             },
             {
+                "id":104,
             "city":"Mobile",
             "code":"MOB"
             },
             {
+                "id":105,
             "city":"Montgomery",
             "code":"MGM"
             }
@@ -30,14 +35,17 @@
         "state": "Alaska",
         "cities": [
             {
+                "id":201,
                 "city":"Anchorage",
                 "code":"ANC"
             },
             {
+                "id":202,
                 "city": "Fairbanks",
                 "code":"FAI"
             },
             {
+                "id":203,
                 "city": "Juneau",
                 "code":"JNU"
             }
@@ -48,18 +56,22 @@
         "state": "Arizona",
         "cities": [
             {
+                "id":301,
                 "city":"Flagstaff",
                 "code":"FLG"
             },
             {
+                "id":302,
                 "city":"Phoenix ",
                 "code":"PHX"
             },
             {
+                "id":303,
                 "city":"Tucson",
                 "code":"TUS"
             },
             {
+                "id":304,
                 "city":"Yuma",
                 "code":"YUM"
             }
@@ -70,14 +82,17 @@
         "state": "Arkansas",
         "cities": [
             {
+                "id":401,
                 "city":"Fayetteville",
                 "code":"FYV"
             },
             {
+                "id":402,
                 "city":"Little Rock ",
                 "code":"LIT"
             },
             {
+                "id":403,
                 "city":"Arkansas",
                 "code":"XNA"
             }
@@ -88,50 +103,62 @@
         "state": "California",
         "cities": [
             {
+                "id":501,
                 "city":"Burbank",
                 "code":"BUR"
             },
             {
+                "id":502,
                 "city":"Fresno",
                 "code":"FAT"
             },
             {
+                "id":503,
                 "city":"Long Beach",
                 "code":"LGB"
             },
             {
+                "id":504,
                 "city":"Los Angeles",
                 "code":"LAX"
             },
             {
+                "id":505,
                 "city":"Oakland",
                 "code":"OAK"
             },
             {
+                "id":506,
                 "city":"Ontario",
                 "code":"ONT"
             },
             {
+                "id":507,
                 "city":"Palm Springs",
                 "code":"PSP"
             },
             {
+                "id":508,
                 "city":"Sacramento",
                 "code":"SMF"
             },
             {
+                "id":509,
                 "city":"San Diego",
                 "code":"SAN"
             },
             {
+                "id":510,
                 "city":"San Francisco",
                 "code":"SFO"
             },
             {
+                "id":511,
                 "city":"San Jose",
                 "code":"SJC"
             },
             {
+                "id":512,
                 "city":"Santa Ana",
                 "code":"SNA"
             }
@@ -142,22 +169,27 @@
         "state": "Colorado",
         "cities": [
             {    
+                "id":601,
                 "city":"Aspen",
                 "code":"ASE"
             },
             {    
+                "id":602,
                 "city":"Colorado Springs",
                 "code":"COS"
             },
-            {       
+            {    
+                "id":603,   
                 "city":"Denver",
                 "code":"DEN"
             },
-            {    
+            {   
+                "id":604, 
                 "city":"Grand Junction",
                 "code":"GJT"
             },
-            {    
+            {   
+                "id":605, 
                 "city":"Pueblo",
                 "code":"PUB"
             }
@@ -168,10 +200,12 @@
         "state": "Conneticut",
         "cities": [
             {
+                "id":701,
                 "city":"Hartford",
                 "code":"BDL"
             },
             {
+                "id":702,
                 "city":"New Haven",
                 "code":"HVN"
             }
@@ -182,10 +216,12 @@
         "state": "D.C.",
         "cities": [
             {
+                "id":801,
                 "city":"Dulles",
                 "code":"IAD"
             },
             {
+                "id":802,
                 "city":"Washington",
                 "code":"DCA"
             }
@@ -196,6 +232,7 @@
         "state": "Delaware",
         "cities": [
             {
+                "id":4901,
                 "city":"Wilmington",
                 "code":"ILG"
             }
@@ -207,54 +244,67 @@
         "state": "Florida",
         "cities": [
             {
+                "id":901,
                 "city":"Daytona Beach",
                 "code":"DAB"
             },
             {
+                "id":902,
                 "city":"Fort Lauderdale",
                 "code":"FLL"
             },
             {
+                "id":903,
                 "city":"Fort Meyers",
                 "code":"RSW"
             },
             {
+                "id":904,
                 "city":"Jacksonville",
                 "code":"JAX"
             },
             {
+                "id":905,
                 "city":"Key West",
                 "code":"EYW"
             },
             {
+                "id":906,
                 "city":"Miami",
                 "code":"MIA"
             },
             {
+                "id":907,
                 "city":"Orlando",
                 "code":"MCO"
             },
             {
+                "id":908,
                 "city":"Pensacola",
                 "code":"PNS"
             },
             {
+                "id":909,
                 "city":"St. Petersburg",
                 "code":"PIE"
             },
             {
+                "id":910,
                 "city":"Sarasota",
                 "code":"SRQ"
             },
             {
+                "id":911,
                 "city":"Tampa",
                 "code":"TPA"
             },
             {
+                "id":912,
                 "city":"Palm Beach",
                 "code":"PBI"
             },
             {
+                "id":913,
                 "city":"Panama City",
                 "code":"PFN"
             }
@@ -265,14 +315,17 @@
         "state": "Georgia",
         "cities": [
             {
+                "id":1001,
                 "city":"Atlanta",
                 "code":"ATL"
             },
             {
+                "id":1002,
                 "city":"Augusta",
                 "code":"AGS"
             },
             {
+                "id":1003,
                 "city":"Savannah",
                 "code":"SAV"
             }
@@ -283,22 +336,27 @@
         "state": "Hawaii",
         "cities": [
             {
+                "id":1101,
                 "city":"Hilo",
                 "code":"ITO"
             },
             {
+                "id":1102,
                 "city":"Honolulu",
                 "code":"HNL"
             },
             {
+                "id":1103,
                 "city":"Kahului",
                 "code":"OGG"
             },
             {
+                "id":1104,
                 "city":"Kailua",
                 "code":"KOA"
             },
             {
+                "id":1105,
                 "city":"Lihue",
                 "code":"LIH"
             }
@@ -309,6 +367,7 @@
         "state": "Idaho",
         "cities": [
             {
+                "id":1201,
                 "city":"Boise",
                 "code":"BOI"
             }
@@ -319,18 +378,22 @@
         "state": "Illanois",
         "cities": [
             {
+                "id":1301,
                 "city":"Chicago Midway",
                 "code":"MDW"
             },
             {
+                "id":1302,
                 "city":"Chicago O'Hare",
                 "code":"ORD"
             },
             {
+                "id":1303,
                 "city":"Moline",
                 "code":"MLI"
             },
             {
+                "id":1304,
                 "city":"Peoria",
                 "code":"PIA"
             }
@@ -341,14 +404,17 @@
         "state": "Indiana",
         "cities": [
             {
+                "id":1401,
                 "city":"Evansville",
                 "code":"EVV"
             },
             {
+                "id":1402,
                 "city":"Fort Wayne",
                 "code":"FWA"
             },
             {
+                "id":1403,
                 "city":"Indianapolis",
                 "code":"IND"
             }
@@ -359,6 +425,7 @@
         "state": "Iowa",
         "cities": [
             {
+                "id":5001,
                 "city":"Des Moines",
                 "code":"DSM"
             }
@@ -369,6 +436,7 @@
         "state": "Kansas",
         "cities": [
             {
+                "id":5101,
                 "city":"Manhattan Regional",
                 "code":"MHK"
             }
@@ -379,14 +447,17 @@
         "state": "Louisiana",
         "cities": [
             {
+                "id":1501,
                 "city":"Baton Rouge",
                 "code":"BTR"
             },
             {
+                "id":1502,
                 "city":"New Orleans",
                 "code":"MSY"
             },
             {
+                "id":1503,
                 "city":"Shreveport",
                 "code":"SHV"
             }
@@ -397,14 +468,17 @@
         "state": "Maine",
         "cities": [
             {
+                "id":1601,
                 "city":"Augusta",
                 "code":"AUG"
             },
             {
+                "id":1602,
                 "city":"Bangor",
                 "code":"BGR"
             },
             {
+                "id":1603,
                 "city":"Portland",
                 "code":"PWM"
             }
@@ -415,6 +489,7 @@
         "state": "Maryland",
         "cities": [
             {
+                "id":1701,
                 "city":"Baltimore",
                 "code":"BWI"
             }
@@ -425,18 +500,22 @@
         "state": "Massachusetts",
         "cities": [
             {   
+                "id":1801,
                 "city":"Boston",
                 "code":"BOS"
             },
             {   
+                "id":1802,
                 "city":"Hyannis",
                 "code":"HYA"
             },
             {   
+                "id":1803,
                 "city":"Nantucket",
                 "code":"ACK"
             },
             {   
+                "id":1804,
                 "city":"Worcester",
                 "code":"ORH"
             }
@@ -447,6 +526,7 @@
         "state": "Mexico",
         "cities": [
             {
+                "id":1901,
                 "city":"Cancún",
                 "code":"CUN"
             }
@@ -457,30 +537,37 @@
         "state": "Michigan",
         "cities": [
             {
+                "id":2001,
                 "city":"Battlecreek",
                 "code":"BTL"
             },
             {
+                "id":2002,
                 "city":"Detroit",
                 "code":"DET"
             },
             {
+                "id":2003,
                 "city":"Flint",
                 "code":"FNT"
             },
             {
+                "id":2004,
                 "city":"Grand Rapids",
                 "code":"GRR"
             },
             {
+                "id":2005,
                 "city":"Kalamazoo",
                 "code":"AZO"
             },
             {
+                "id":2006,
                 "city":"Lansing",
                 "code":"LAN"
             },
             {
+                "id":2007,
                 "city":"Saginaw",
                 "code":"MBS"
             }
@@ -491,14 +578,17 @@
         "state": "Minnesota",
         "cities": [
             {
+                "id":2101,
                 "city":"Duluth",
                 "code":"DHL"
             },
             {
+                "id":2102,
                 "city":"Minneapolis",
                 "code":"MSP"
             },
             {
+                "id":2103,
                 "city":"Rochester",
                 "code":"RST"
             }
@@ -509,10 +599,12 @@
         "state": "Mississippi",
         "cities": [
             {
+                "id":2201,
                 "city":"Gulfport",
                 "code":"GPT"
             },
             {
+                "id":2202,
                 "city":"Jackson",
                 "code":"JAN"
             }
@@ -523,14 +615,17 @@
         "state": "Missouri",
         "cities": [
             {
+                "id":2301,
                 "city":"Kansas City",
                 "code":"MCI"
             },
             {
+                "id":2302,
                 "city":"St Louis",
                 "code":"STL"
             },
             {
+                "id":2303,
                 "city":"Springfield",
                 "code":"SGF"
             }
@@ -541,6 +636,7 @@
         "state": "Montana",
         "cities": [
             {
+                "id":2401,
                 "city":"Billings",
                 "code":"BIL"
             }
@@ -551,10 +647,12 @@
         "state": "Nebraska",
         "cities": [
             {
+                "id":2501,
                 "city":"Lincoln",
                 "code":"LNK"
             },
             {
+                "id":2502,
                 "city":"Omaha",
                 "code":"OMA"
             }
@@ -565,10 +663,12 @@
         "state": "Nevada",
         "cities": [
             {
+                "id":2601,
                 "city":"Las Vegas",
                 "code":"LAS"
             },
             {
+                "id":2602,
                 "city":"Reno-Tahoe",
                 "code":"RNO"
             }
@@ -579,6 +679,7 @@
         "state": "New Hampshire",
         "cities": [
             {
+                "id":2701,
                 "city":"Manchester",
                 "code":"MHT"
             }
@@ -589,14 +690,17 @@
         "state": "New Jersey",
         "cities": [
             {
+                "id":2801,
                 "city":"Atlantic",
                 "code":"ACY"
             },
             {
+                "id":2802,
                 "city":"Newark",
                 "code":"EWR"
             },
             {
+                "id":2803,
                 "city":"Trenton",
                 "code":"TTN"
             }
@@ -607,10 +711,12 @@
         "state": "New Mexico",
         "cities": [
             {
+                "id":2901,
                 "city":"Albuquerque",
                 "code":"ABQ"
             },
             {
+                "id":2902,
                 "city":"Alamogordo",
                 "code":"ALM"
             }
@@ -621,38 +727,47 @@
         "state": "New York",
         "cities": [
             {
+                "id":3001,
                 "city":"Albany",
                 "code":"ALB"
             },
             {
+                "id":3002,
                 "city":"Buffalo",
                 "code":"BUF"
             },
             {
+                "id":3003,
                 "city":"Islip",
                 "code":"ISP"
             },
             {
+                "id":3004,
                 "city":"New York JFK",
                 "code":"JFK"
             },
             {
+                "id":3005,
                 "city":"New York LGA",
                 "code":"LGA"
             },
             {
+                "id":3006,
                 "city":"Newburgh",
                 "code":"SWF"
             },
             {
+                "id":3007,
                 "city":"Rochester",
                 "code":"ROC"
             },
             {
+                "id":3008,
                 "city":"Syracuse",
                 "code":"SYR"
             },
             {
+                "id":3009,
                 "city":"Westchester",
                 "code":"HPN"
             }
@@ -663,26 +778,32 @@
         "state": "North Carolina",
         "cities": [
             {
+                "id":3101,
                 "city":"Asheville",
                 "code":"AVL"
             },
             {
+                "id":3102,
                 "city":"Charlotte",
                 "code":"CLT"
             },
             {
+                "id":3103,
                 "city":"Fayetteville",
                 "code":"FAY"
             },
             {
+                "id":3104,
                 "city":"Greensboro",
                 "code":"GSO"
             },
             {
+                "id":3105,
                 "city":"Raleigh",
                 "code":"RDU"
             },
             {
+                "id":3106,
                 "city":"Winston-Salem",
                 "code":"INT"
             }
@@ -693,10 +814,12 @@
         "state": "North Dakota",
         "cities": [
             {
+                "id":3201,
                 "city":"Bismark",
                 "code":"BIS"
             },
             {
+                "id":3202,
                 "city":"Fargo",
                 "code":"FAR"
             }
@@ -707,26 +830,32 @@
         "state": "Ohio",
         "cities": [
             {
+                "id":3301,
                 "city":"Akron",
                 "code":"CAK"
             },
             {
+                "id":3302,
                 "city":"Cincinnati",
                 "code":"CVG"
             },
             {
+                "id":3303,
                 "city":"Cleveland",
                 "code":"CLE"
             },
             {
+                "id":3304,
                 "city":"Columbus",
                 "code":"CMH"
             },
             {
+                "id":3305,
                 "city":"Dayton",
                 "code":"DAY"
             },
             {
+                "id":3306,
                 "city":"Toledo",
                 "code":"TOL"
             }
@@ -737,10 +866,12 @@
         "state": "Oklahoma",
         "cities": [
             {
+                "id":3401,
                 "city":"Oklahoma City",
                 "code":"OKC"
             },
             {
+                "id":3402,
                 "city":"Tulsa",
                 "code":"TUL"
             }
@@ -751,18 +882,22 @@
         "state": "Oregon",
         "cities": [
             {
+                "id":3501,
                 "city":"Eugene",
                 "code":"EUG"
             },
             {
+                "id":3502,
                 "city":"Portland",
                 "code":"PDX"
             },
             {
+                "id":3503,
                 "city":"Portland",
                 "code":"HIO"
             },
             {
+                "id":3504,
                 "city":"Salem",
                 "code":"SLE"
             }
@@ -773,26 +908,32 @@
         "state": "Pennsylvania",
         "cities": [
             {
+                "id":3601,
                 "city":"Allentown",
                 "code":"ABE"
             },
             {
+                "id":3602,
                 "city":"Erie",
                 "code":"ERI"
             },
             {
+                "id":3603,
                 "city":"Harrisburg",
                 "code":"MDT"
             },
             {
+                "id":3604,
                 "city":"Philadelphia",
                 "code":"PHL"
             },
             {
+                "id":3605,
                 "city":"Pittsburgh",
                 "code":"PIT"
             },
             {
+                "id":3606,
                 "city":"Scranton",
                 "code":"AVP"
             }
@@ -803,6 +944,7 @@
         "state": "Rhode Island",
         "cities": [
             {
+                "id":3701,
                 "city":"Providence",
                 "code":"PVD"
             }
@@ -813,18 +955,22 @@
         "state": "South Carolina",
         "cities": [
             {
+                "id":3801,
                 "city":"Charleston",
                 "code":"CHS"
             },
             {
+                "id":3802,
                 "city":"Columbia",
                 "code":"CAE"
             },
             {
+                "id":3803,
                 "city":"Greenville",
                 "code":"GSP"
             },
             {
+                "id":3804,
                 "city":"Myrtle Beach",
                 "code":"MYR"
             }
@@ -835,14 +981,17 @@
         "state": "South Dakota",
         "cities": [
             {
+                "id":3901,
                 "city":"Pierre",
                 "code":"PIR"
             },
             {
+                "id":3902,
                 "city":"Rapid City",
                 "code":"RAP"
             },
             {
+                "id":3903,
                 "city":"Sioux Falls",
                 "code":"FSD"
             }
@@ -853,22 +1002,27 @@
         "state": "Tennessee",
         "cities": [
             {
+                "id":4001,
                 "city":"Bristol",
                 "code":"TRI"
             },
             {
+                "id":4002,
                 "city":"Chattanooga",
                 "code":"CHA"
             },
             {
+                "id":4003,
                 "city":"Knoxville",
                 "code":"TYS"
             },
             {
+                "id":4004,
                 "city":"Memphis",
                 "code":"MEM"
             },
             {
+                "id":4005,
                 "city":"Nashville",
                 "code":"BNA"
             }
@@ -879,46 +1033,57 @@
         "state": "Texas",
         "cities": [
             {
+                "id":4101,
                 "city":"Amarillo",
                 "code":"AMA"
             },
             {
+                "id":4102,
                 "city":"Austin",
                 "code":"AUS"
             },
             {
+                "id":4103,
                 "city":"Corpus Christi",
                 "code":"CRP"
             },
             {
+                "id":4104,
                 "city":"Dallas",
                 "code":"DAL"
             },
             {
+                "id":4105,
                 "city":"Fort Worth",
                 "code":"DFW"
             },
             {
+                "id":4106,
                 "city":"El Paso",
                 "code":"ELP"
             },
             {
+                "id":4107,
                 "city":"Houston",
                 "code":"HOU"
             },
             {
+                "id":4108,
                 "city":"Houston",
                 "code":"IAH"
             },
             {
+                "id":4109,
                 "city":"Lubbock",
                 "code":"LBB"
             },
             {
+                "id":4110,
                 "city":"Midland",
                 "code":"MAF"
             },
             {
+                "id":4111,
                 "city":"San Antonio",
                 "code":"SAT"
             }
@@ -929,6 +1094,7 @@
         "state": "Utah",
         "cities": [
             {
+                "id":4201,
                 "city":"Salt Lake",
                 "code":"SLC"
             }
@@ -939,14 +1105,17 @@
         "state": "Vermont",
         "cities": [
             {
+                "id":4301,
                 "city":"Burlington",
                 "code":"BTV"
             },
             {
+                "id":4302,
                 "city":"Montpelier",
                 "code":"MPV"
             },
             {
+                "id":4303,
                 "city":"Rutland",
                 "code":"RUT"
             }
@@ -957,22 +1126,27 @@
         "state": "Virginia",
         "cities": [
             {
+                "id":4401,
                 "city":"Dulles",
                 "code":"IAD"
             },
             {
+                "id":4402,
                 "city":"Newport",
                 "code":"PHF"
             },
             {
+                "id":4403,
                 "city":"Norfolk",
                 "code":"ORF"
             },
             {
+                "id":4404,
                 "city":"Richmond",
                 "code":"RIC"
             },
             {
+                "id":4405,
                 "city":"Roanoke",
                 "code":"ROA"
             }
@@ -983,14 +1157,17 @@
         "state": "Washington",
         "cities": [
             {
+                "id":4501,
                 "city":"Pasco",
                 "code":"PSC"
             },
             {
+                "id":4502,
                 "city":"Seattle",
                 "code":"SEA"
             },
             {
+                "id":4503,
                 "city":"Spokane",
                 "code":"GEG"
             }
@@ -1001,14 +1178,17 @@
         "state": "West Virginia",
         "cities": [
             {
+                "id":4601,
                 "city":"Charleston",
                 "code":"CRW"
             },
             {
+                "id":4602,
                 "city":"Clarksburg",
                 "code":"CKB"
             },
             {
+                "id":4603,
                 "city":"Huntington",
                 "code":"HTS"
             }
@@ -1019,14 +1199,17 @@
         "state": "Winsconsin",
         "cities": [
             {
+                "id":4701,
                 "city":"Green Bay",
                 "code":"GRG"
             },
             {
+                "id":4702,
                 "city":"Madison",
                 "code":"MSN"
             },
             {
+                "id":4703,
                 "city":"Milwaukee",
                 "code":"MKE"
             }
@@ -1037,18 +1220,22 @@
         "state": "Wyoming",
         "cities": [
             {
+                "id":4801,
                 "city":"Casper",
                 "code":"CPR"
             },
             {
+                "id":4802,
                 "city":"Cheyenne",
                 "code":"CYS"
             },
             {
+                "id":4803,
                 "city":"Jackson Hole",
                 "code":"JAC"
             },
             {
+                "id":4804,
                 "city":"Rock Springs",
                 "code":"RKS"
             }

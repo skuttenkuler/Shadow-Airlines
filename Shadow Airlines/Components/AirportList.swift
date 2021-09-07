@@ -7,20 +7,21 @@
 
 import SwiftUI
 
-struct AirportTable: View {
+struct AirportList: View {
     @StateObject var data = DataLoader()
     
     var body: some View {
-        AirportsTable(data: data)
+        AirportsList(data: data)
     }
 }
 
 struct AirportTable_Previews: PreviewProvider {
     static var previews: some View {
-        AirportTable()
+        AirportList()
     }
 }
-struct AirportsTable: View {
+
+struct AirportsList: View {
     @ObservedObject var data : DataLoader
 
          var body: some View {
