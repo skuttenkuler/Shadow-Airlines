@@ -15,6 +15,7 @@
 		5F68C51826E6E622007E40E1 /* Shadow_AirlinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68C51726E6E622007E40E1 /* Shadow_AirlinesUITests.swift */; };
 		5F68C52626E6E977007E40E1 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 5F68C52526E6E977007E40E1 /* Models */; };
 		5F68C52826E6E9FC007E40E1 /* flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F68C52726E6E9FC007E40E1 /* flights.json */; };
+		5F68C52A26E6EA57007E40E1 /* Methods in Resources */ = {isa = PBXBuildFile; fileRef = 5F68C52926E6EA57007E40E1 /* Methods */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5F68C51926E6E622007E40E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F68C52526E6E977007E40E1 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
 		5F68C52726E6E9FC007E40E1 /* flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flights.json; sourceTree = "<group>"; };
+		5F68C52926E6EA57007E40E1 /* Methods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Methods; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		5F68C4EE26E6E61F007E40E1 = {
 			isa = PBXGroup;
 			children = (
+				5F68C52926E6EA57007E40E1 /* Methods */,
 				5F68C52726E6E9FC007E40E1 /* flights.json */,
 				5F68C52526E6E977007E40E1 /* Models */,
 				5F68C4F926E6E620007E40E1 /* Shadow Airlines */,
@@ -242,6 +245,7 @@
 				5F68C52626E6E977007E40E1 /* Models in Resources */,
 				5F68C52826E6E9FC007E40E1 /* flights.json in Resources */,
 				5F68C50226E6E622007E40E1 /* Preview Assets.xcassets in Resources */,
+				5F68C52A26E6EA57007E40E1 /* Methods in Resources */,
 				5F68C4FF26E6E622007E40E1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
