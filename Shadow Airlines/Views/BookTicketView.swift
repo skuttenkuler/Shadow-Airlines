@@ -19,7 +19,7 @@ struct BookTicketContent: View {
     @StateObject var data = DataLoader()
     @State private var isModal = false
     @State var departure = Date()
-    @State var destination = "San Francisco"
+    @State var destination = "San Francisco (SFO)"
 
        //view block
        var body: some View {
@@ -59,7 +59,7 @@ struct AirportList: View {
                    Section(header: Text("\(state.state)")) {
                        ForEach(state.cities, id: \.id) { city in
                         Text("\(city.city)").onTapGesture {
-                            destination = city.city
+                            destination = city.city + " (" + city.code + ")"
                             print("selected: \(destination)")
                             self.isPresented.toggle()
                        }
