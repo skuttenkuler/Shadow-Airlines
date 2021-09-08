@@ -7,6 +7,7 @@
 import SwiftUI
 import UIKit
 
+
 struct BookTicketView: View {
     var body: some View {
         VStack{
@@ -20,9 +21,10 @@ struct BookTicketContent: View {
     @State private var isModal = false
     @State var departure = Date()
     @State var destination = "San Francisco (SFO)"
-
+    
        //view block
        var body: some View {
+       
            //Modal Destination
         Button(destination){
             self.isModal = true
@@ -34,6 +36,7 @@ struct BookTicketContent: View {
            //Destination
            //Departure Date
            DatePicker("Departure", selection: $departure, in: Date()...)
+            
            //logic to get data and pass to next view
            //Navigation Link to ticket
            Spacer()
@@ -60,7 +63,7 @@ struct AirportList: View {
                        ForEach(state.cities, id: \.id) { city in
                         Text("\(city.city)").onTapGesture {
                             destination = city.city + " (" + city.code + ")"
-                            print("selected: \(destination)")
+                            //print("selected: \(destination)")
                             self.isPresented.toggle()
                        }
                        }
