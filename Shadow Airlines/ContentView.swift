@@ -19,7 +19,7 @@ struct HomeView: View {
 
             }.background(LinearGradient(gradient: Gradient(colors: [.red, .black]), startPoint: .top, endPoint: .bottom).frame(width: UIScreen.main.bounds.width, height:1000))
     
-        }
+        }.accentColor( .white) 
     }
 }
 
@@ -45,6 +45,6 @@ struct HomeContent: View {
                 .cornerRadius(20)
                 .shadow(color: .black, radius: 2, x: 10, y: 10)
                 
-            })
+            }).accentColor( .white)
 }
 }

@@ -17,22 +17,29 @@ struct TicketView: View {
         ZStack{
             VStack{
             Text("Nashville (BNA)")
-                .offset(x: 20,y: -62)
+                .offset(x: 20,y: 130)
                 .font(.system(size:23)
                 .weight(.heavy))
+                .colorInvert()
                 .frame(minWidth: 300, idealWidth: 300, maxWidth: 300, minHeight: 100, idealHeight: 100, maxHeight: 100)
                 Text(destination)
-                    .offset(x: 30,y: -118)
+                    .colorInvert()
+                    .offset(x: 30,y: 75)
                     .font(.system(size:23)
                     .weight(.heavy))
                     .frame(minWidth: 300, idealWidth: 300, maxWidth: 300, minHeight: 100, idealHeight: 100, maxHeight: 100)
                 
-                Text("\(departure, style: .date)").offset(x: 60,y: 68).font(.system(size:21).weight(.heavy))
-                Text("\(departure, style: .time)").offset(x: -75,y: 120).font(.system(size:25).weight(.heavy))
+                Text("\(departure, style: .date)")
+                    .offset(x: 60,y: 265)
+                    .font(.system(size:19)
+                    .weight(.heavy))
+                    .colorInvert()
+                    .frame(width:250)
+                Text("\(departure, style: .time)").offset(x: -75,y: 320).font(.system(size:25).weight(.heavy)).colorInvert()
         Button("Book"){
             let image = snapshot()
             UIImageWriteToSavedPhotosAlbum(image!, nil, nil, nil)
-        }.offset(x: 0 , y: 250).frame(maxWidth:.infinity)
+        }.offset(x: 0 , y:0).font(.system(size:30)).colorInvert()
     }.background(
         Image("Ticket2")
             .resizable()
@@ -41,20 +48,4 @@ struct TicketView: View {
     )}
 }
 }
-//class DateData{
-//    func stringifyDateTime(date: Date) -> String{
-//            var string_date: String = ""
-//            let dateFormatter = DateFormatter()
-//            string_date = dateFormatter.string(from: date)
-//            print(string_date)
-//            return string_date
-//        }
-//}
 
-//struct TicketView_Previews: PreviewProvider {
-//    @Binding var destination: String
-//    static var previews: some View {
-//        TicketView(destination: $destination)
-//    }
-//}
-//}

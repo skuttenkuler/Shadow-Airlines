@@ -12,7 +12,8 @@ struct BookTicketView: View {
     var body: some View {
         VStack{
             BookTicketContent()
-    }
+    }.background(LinearGradient(gradient: Gradient(colors: [.red, .black]), startPoint: .top, endPoint: .bottom).frame(width: UIScreen.main.bounds.width, height:1000))
+        
 }
 
 struct BookTicketContent: View {
@@ -20,32 +21,49 @@ struct BookTicketContent: View {
     @StateObject var data = DataLoader()
     @State private var isModal = false
     @State var departure = Date()
-    @State var destination = "San Francisco (SFO)"
+    @State var destination = "DESTINATION"
     
        //view block
        var body: some View {
        
            //Modal Destination
+        VStack{
+            Text("Select Destination:").foregroundColor(Color.white).font(.system(size: 25))
         Button(destination){
             self.isModal = true
         }.sheet(isPresented: $isModal, content: {
             //AirportsList
             AirportList(data: self.data, destination: $destination, isPresented: $isModal)
         })
-           //Origin
-           //Destination
-           //Departure Date
-           DatePicker("Departure", selection: $departure, in: Date()...)
-            
+        }.font(.system(size:22))
+        .frame(width: 300, height: 100)
+        .foregroundColor(Color.black)
+        .background(Color(red: 203 / 255,green: 33 / 255 ,blue: 39 / 255))
+        .cornerRadius(20)
+        .shadow(color: .black, radius: 4, x: 10, y: 10)
+        Spacer().frame(height: 50)
+        VStack{
+            Text("Choose Departure:").font(.system(size: 25))
+            DatePicker("", selection: $departure, in: Date()...)
+                .colorMultiply(Color.black).font(.system(size:40)).offset(x:-40)
+        }.frame(width: 300, height: 100)
+        .foregroundColor(Color.white)
+        .background(Color(red: 203 / 255,green: 33 / 255 ,blue: 39 / 255))
+        .cornerRadius(20)
+        .shadow(color: .black, radius: 4, x: 10, y: 10)
+        
+           
            //logic to get data and pass to next view
            //Navigation Link to ticket
            Spacer()
         NavigationLink(destination:TicketView(destination: self.$destination, departure: self.$departure), label: {
                Text("BOOK FLIGHT")
-                   .font(.system(size:60))
-                   .foregroundColor(Color.white)
-                   .background(Color.blue)
-                   .cornerRadius(20)
+                .font(.system(size:40))
+                .frame(width: 300, height: 100)
+                .foregroundColor(Color.white)
+                .background(Color(red: 203 / 255,green: 33 / 255 ,blue: 39 / 255))
+                .cornerRadius(20)
+                .shadow(color: .black, radius: 2, x: 10, y: 10)
                    
            })
            }
