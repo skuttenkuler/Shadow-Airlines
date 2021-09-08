@@ -16,11 +16,19 @@ struct TicketView: View {
     var body: some View {
         ZStack{
             VStack{
-            Text("Nashville (BNA)").offset(x: -30,y: -95).font(.system(size:25).weight(.heavy))
-                Text(destination).offset(x: -50,y: -80).font(.system(size:25).weight(.heavy))
+            Text("Nashville (BNA)")
+                .offset(x: 20,y: -62)
+                .font(.system(size:23)
+                .weight(.heavy))
+                .frame(minWidth: 300, idealWidth: 300, maxWidth: 300, minHeight: 100, idealHeight: 100, maxHeight: 100)
+                Text(destination)
+                    .offset(x: 30,y: -118)
+                    .font(.system(size:23)
+                    .weight(.heavy))
+                    .frame(minWidth: 300, idealWidth: 300, maxWidth: 300, minHeight: 100, idealHeight: 100, maxHeight: 100)
                 
-                Text("\(departure, style: .date)").offset(x: 35,y: 138).font(.system(size:25).weight(.heavy))
-                Text("\(departure, style: .time)").offset(x: -95,y: 190).font(.system(size:25).weight(.heavy))
+                Text("\(departure, style: .date)").offset(x: 60,y: 68).font(.system(size:21).weight(.heavy))
+                Text("\(departure, style: .time)").offset(x: -75,y: 120).font(.system(size:25).weight(.heavy))
         Button("Book"){
             let image = snapshot()
             UIImageWriteToSavedPhotosAlbum(image!, nil, nil, nil)
