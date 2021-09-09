@@ -17,34 +17,34 @@ struct TicketView: View {
         ZStack{
             VStack{
             Text("Nashville (BNA)")
-                .offset(x: 20,y: 130)
+                .offset(x: 20,y: -160)
                 .font(.system(size:23)
                 .weight(.heavy))
-                .colorInvert()
+                .foregroundColor(Color.black)
                 .frame(minWidth: 300, idealWidth: 300, maxWidth: 300, minHeight: 100, idealHeight: 100, maxHeight: 100)
                 Text(destination)
-                    .colorInvert()
-                    .offset(x: 30,y: 75)
+                    .offset(x: 30,y: -200)
                     .font(.system(size:23)
                     .weight(.heavy))
+                    .foregroundColor(Color.black)
                     .frame(minWidth: 300, idealWidth: 300, maxWidth: 300, minHeight: 100, idealHeight: 100, maxHeight: 100)
                 
                 Text("\(departure, style: .date)")
-                    .offset(x: 60,y: 265)
+                    .offset(x: 60,y: 65)
                     .font(.system(size:19)
                     .weight(.heavy))
-                    .colorInvert()
+                    .foregroundColor(Color.black)
                     .frame(width:250)
-                Text("\(departure, style: .time)").offset(x: -75,y: 320).font(.system(size:25).weight(.heavy)).colorInvert()
+                Text("\(departure, style: .time)").offset(x: -75,y: 150).font(.system(size:25).weight(.heavy)).foregroundColor(Color.black)
         Button("Book"){
             let image = snapshot()
             UIImageWriteToSavedPhotosAlbum(image!, nil, nil, nil)
-        }.offset(x: 0 , y:0).font(.system(size:30)).colorInvert()
+        }.offset(x: 90 , y:80).font(.system(size:30)).foregroundColor(Color.white)
     }.background(
         Image("Ticket2")
             .resizable()
             .edgesIgnoringSafeArea(.all)
-            .frame(width:300, height: 650)
+            .frame(width:400, height: 680)
     )}
 }
 }
